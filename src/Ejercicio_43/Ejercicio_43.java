@@ -7,12 +7,12 @@ public class Ejercicio_43 {
 		
 		Scanner datos = new Scanner (System.in);
 		
-		int numeroAleatorio;
-		int[] n1 = new int [4];
+		int [] n = {0,1,2,3,-2};
 		
-		for(int i=1; i<=3; i++) {
-			System.out.println("Ingresa un numero: ");
-			n1 [i] =datos.nextInt();
+		
+		for ( int i = 0; i <= 3; i++ ) {
+			
+		System.out.println(n[i]);
 			
 		}
 		

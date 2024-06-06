@@ -1,35 +1,32 @@
 package Ejercicio_46;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Ejercicio_46 {
 	public static void main(String[] args) {
 			Scanner datos = new Scanner (System.in);
 		
-		int impares;
-		int[] nom_club = {1011, 2367, 8748, 9121, 817, 6423, 2034};
-		String [] nombres = {"Enrique", "Liliana"," Lucas", "Juan", "Fiorella", "Ariel"," Daiana"};
-		int num, socios;
-		nom_club.length = nombres.length;
-		float divis = 0;
+		int ingreso;
 		
-		if 
-		System.out.println("");
+		HashMap< Integer,String> nMap = new HashMap<>();
 		
-		System.out.println("ingrese un numero de socio, para encontrar a un individuo" );
-		num = datos.nextInt();
-		
-		for (int i = 0; i < nom_club.length; i++) {
-			divis = nom_club[i] % 2;
-			}
-		
-		if (divis == 0 ) {
-				System.out.println("este numero es par y no se encuentra");
-			}
-		
+        nMap.put(1011, "Enrique");
+        nMap.put(2367, "Liliana");
+        nMap.put(8748, "Lucas");
+        nMap.put(9121, "Juan");
+        nMap.put(817, "Fliorella");
+        nMap.put(6423, "Ariel");
+        nMap.put(2034, "Daiana");
+        
+        	System.out.println("Para encontrar a un individuo, ingresar número de socio:");
+			ingreso = datos.nextInt();
 			
-	
-		
+			String na = nMap.get(ingreso);
+			
+			if ( ingreso % 2 == 1){
+				System.out.println("codigo: " + ingreso);
+				System.out.println("nombre: " + na  );
+		}
 	}
-	
 }

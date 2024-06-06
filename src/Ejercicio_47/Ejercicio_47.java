@@ -1,23 +1,44 @@
 package Ejercicio_47;
 
-public class Ejercicio_47 {
-	public class EmparejarNumerosYCaracteres {
+import java.util.Arrays;
+import java.util.Scanner;
 
-	        // Definir arrays de números y caracteres
-	        int[] numeros = {1, 2, 3, 4, 5};
-	        char[] caracteres = {"A","B","C","D","E"};
-	        
-	        // Asegurarse de que los arrays tengan la misma longitud
-	        if (numeros.length == caracteres.length) {
-	            System.out.println("Los arrays no tienen la misma longitud.");
-	            return;
-	        }
-	        
-	        // Emparejar números con caracteres
-	        for (int i = 0; i < numeros.length; i++) {
-	            System.out.println("Número: " + numeros[i] + ", Caracter: " + caracteres[i]);
-	        }
-	    
+public class Ejercicio_47 {
+	public static void main(String[] args) {
+		Scanner datos = new Scanner (System.in);
+		
+		int[] notas = new int [3];
+		String ap;
+		int l=0;
+		
+		int length = notas.length;
+		
+		for (int i = 0; i < length; i++) {
+			l++;
+			System.out.println("ingrese las nota N°: " + l + " del alumno");
+			notas[i] = datos.nextInt();
+		}
+		
+		System.out.println("porfavor ingrese el apellido del fracasado");
+			ap = datos.next();
+		
+		System.out.println("\nalumno: " + ap);
+		System.out.println("notas del fracasado: ");
+		for (int i : notas) {
+			System.out.println(i);
+		} 
+			
+		Arrays.sort (notas);
+		
+		System.out.println("\nnotas en orden del fracasado: ");
+		
+		for (int nt : notas) {
+			System.out.println(nt);
+		}
+		
+		
+		
+		
 	}
 
 

@@ -24,6 +24,7 @@ public class Ejercicio_47 {
 		
 		System.out.println("\nalumno: " + ap);
 		System.out.println("notas del fracasado: ");
+		
 		for (int i : notas) {
 			System.out.println(i);
 		} 
@@ -35,11 +36,5 @@ public class Ejercicio_47 {
 		for (int nt : notas) {
 			System.out.println(nt);
 		}
-		
-		
-		
-		
 	}
-
-
 }

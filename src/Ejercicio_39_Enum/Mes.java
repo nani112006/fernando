@@ -6,7 +6,7 @@ public enum Mes {
 
 import java.util.Scanner;
 
-public class main{
+public class{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un mes (por ejemplo, ENERO, FEBRERO, etc.):");
@@ -22,6 +22,5 @@ public class main{
         }
 
         scanner.close();
-        
     }
     }

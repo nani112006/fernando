@@ -8,12 +8,6 @@ String [] nombres = {"Mmessi","Maradona","Neymar","Gallardo","Palermo","Riquelme
 		
 		for (String i:nombres){
 			System.out.println("Jugadores: "+i);
-			
 		}
-		
-		
-		
-
 	}
-
 }

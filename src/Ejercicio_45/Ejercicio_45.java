@@ -24,47 +24,33 @@ public class Ejercicio_45 {
 		
 		num = datos.nextInt();
 		
-		
-		
-		
 		if ( num == Enrique ) {
 			System.out.println("usted elijio el num:" + 1011 );
 			System.out.println("nombre: Enrique");
 		}
-		
 		if ( num == Liliana ) {
 			System.out.println("usted elijio el num:" + 2367 );
 			System.out.println("nombre: Liliana");
 		}
-	
 		if ( num == Lucas ) {
 			System.out.println("usted elijio el num:" + 8748 );
 			System.out.println("nombre: Lucas");
 		}
-		
-		
 		if ( num == Juan ) {
 			System.out.println("usted elijio el num:" + 9121 );
 			System.out.println("nombre: Juan");
 		}
-		
 		if ( num == Fiorella ) {
 			System.out.println("usted elijio el num:" + 817 );
 			System.out.println("nombre: Fiorella");
 		}
-		
-		
 		if ( num == Ariel ) {
 			System.out.println("usted elijio el num:" + 6423 );
 			System.out.println("nombre: Ariel");
 		}
-		
 		if ( num == Daiana ) {
 			System.out.println("usted elijio el num:" + 2034 );
 			System.out.println("nombre: Daiana");
 		}
-		
-		
 	}
-
 }

@@ -8,9 +8,7 @@ public class Ejercicio_49 {
 		
 		int[] dni = new int[4];
 		
-		
 		for (int i = 0; i < dni.length; i++) {
-			
 			System.out.println("Ingresa una lista de DNI: ");
 			dni[i]= datos.nextInt(); 
 		}
@@ -30,8 +28,6 @@ public class Ejercicio_49 {
                 }
             }
         }
-		
-		
 		
 		System.out.println("\nlista ascendente");
 		for (int n : dni) {
@@ -53,18 +49,10 @@ public class Ejercicio_49 {
 			}
 		}
 		
-		
 		System.out.println("\nlista descendente");
 		for (int num : dni) {
 			System.out.println(num);
-			
 		}
-		
-				
-		
-		
-			
 		datos.close();
 	}
-
 }

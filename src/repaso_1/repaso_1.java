@@ -127,7 +127,7 @@ public class repaso_1 {
 				System.out.println("------------------------------");
 				System.out.println("FIN DEL PROGRAMA");
 			}
-		}
+		
 	}
 
-}
+

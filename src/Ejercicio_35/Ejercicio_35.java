@@ -15,7 +15,6 @@ public class Ejercicio_35 {
 		System.out.println("\ningrese una calificacion:" );
 			calif = datos.nextInt();
 			
-			
 			System.out.println("\ncalificaion es: " + calif);
 			
 			if ( nota == 1 ) {
@@ -37,20 +36,15 @@ public class Ejercicio_35 {
 			if ( nota == 5 ) {
 				nota5 = calif;
 			}
-			
 
 			if( nota  < notamin){
 				notamin = nota;
 			}
-			
 
 			if( nota > notamax){
 				notamax = nota;
 			}
-			
-			
 		}
-		
 		suma = nota1 + nota2 + nota3 + nota4 + nota5;
 		divis = suma / 5 ;
 		System.out.println("\nnota total: " + suma );

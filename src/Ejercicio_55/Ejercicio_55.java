@@ -1,19 +1,19 @@
-package Ejercicio_49;
+package Ejercicio_55;
 
 import java.util.Scanner;
 
-public class Ejercicio_49 {
-	public static void main(String[] args) {
-		Scanner datos = new Scanner(System.in);
-		
-		int[] dni = new int[4];
-		
+public class Ejercicio_55 {
+	static Scanner datos = new Scanner(System.in);
+	static int[] dni = new int[4];
+	
+	public static void num( ) {
 		for (int i = 0; i < dni.length; i++) {
 			System.out.println("Ingresa una lista de DNI: ");
 			dni[i]= datos.nextInt(); 
 		}
-		
-		for (int i = 0; i < (dni.length - i - 1); i++) {
+	}
+	public static void orden() {
+for (int i = 0; i < (dni.length - i - 1); i++) {
 			
             for (int j = 0; j < (dni.length -i - 1); j++) {
             	
@@ -54,4 +54,10 @@ public class Ejercicio_49 {
 			System.out.println(num);
 		}
 	}
+	
+	public static void main(String[] args) {
+		num();
+		orden();
+	}
+
 }

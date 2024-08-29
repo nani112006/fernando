@@ -31,11 +31,18 @@ public class Ejercicio_61 {
 		try {
 			System.out.println("ingrese un numero de socio, para encontrar a un individuo" );
 			int ingreso =  datos.nextInt();
-	        int posicionEnLaLista = Num.indexOf(ingreso);
+	       
+	        
+	         if(ingreso == Num.get(ingreso) ) {
+	        	 
+	        	 System.out.println("hola");
+	        	 
+	         }
 	        
 	        
-	        
-	        
+	   
+	         
+	         
 		} catch (Exception e) {
 			
 		}
